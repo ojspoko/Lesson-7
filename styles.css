@@ -1,13 +1,17 @@
 * {
   box-sizing:border-box;
+  font-family: 'Arial';
 }
 
 nav {
   width: 100%;
   border: 3rem;
   background-color: rgb(27, 68, 127);
+  font-weight: bold;
   color:white;
-  padding: 1rem;
+  padding:1rem;
+  font-size:130%;
+  text-align:center;
 }
 
 header {
@@ -15,18 +19,22 @@ header {
   color:white;
 }
 
-.flex-container {
-  display: flex;
-  align-content: space-evenly;
+aside {
+  float:right;
 }
-
 a {
   text-decoration: none;
   text-align: center;
+  color: rgb(3,163,223);
+}
+
+h1 {
+  font-size:40px;
+  font-weight:bold;
 }
 
 a:visited {
-  color: rgb(286,183,34);
+  color: rgb(236,183,34);
 }
 
 h2 {
@@ -73,8 +81,11 @@ footer {
 .footer-text {
   position: absolute;
   bottom:33%;
+  right:20%;
+  left:20%;
   color: white;
   text-align:center;
+  font-size:85%;
   padding-left: 50px;
   padding-right: 50px;
 }
