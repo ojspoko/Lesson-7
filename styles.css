@@ -49,6 +49,14 @@ h2 {
   text-align:center;
 }
 
+.headshot {
+  float:left;
+  padding:2rem;
+}
+.about {
+  padding:5rem;
+  font-size:120%;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -75,6 +83,14 @@ h2 {
   color: white;
   text-align: center;
   font-size:120%;
+}
+
+video {
+  float:left;
+}
+
+.bottom {
+  clear:both;
 }
 
 footer {
